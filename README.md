@@ -2,11 +2,12 @@
 
 This project tracks the movement of rats in open field videos using the [Mask R-CNN](https://github.com/matterport/Mask_RCNN) repository and a Mask R-CNN model *mask_rcnn_rat_cfg_0005.h5*
 
-###### Example result:
+##### Example result:
 ![Alt Text](https://github.com/nhalle/rat-openfield-maskrcnn/blob/master/example.gif)
 ##### Example path:
-
 ![alt text](https://github.com/nhalle/rat-openfield-maskrcnn/blob/master/example_path_result.png)
+
+
 ## Description
 
 The Open Field Maze(OFM) is a common method to study loco-motor ability and anxiety-like behavior in rats, and thus being used for various psychology research. Automating behavioral observations is necessary to enable researchers to study behavior in more reliable and consistent ways and allow experiments to be conducted in longer periods of time. Therefore, this project used the Mask-Region-based Convolutional Neural Network model (Mask-RCNN) to develop a reliable program that tracks rat movement in the OFM.
