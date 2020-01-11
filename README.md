@@ -59,10 +59,9 @@ ex.
 
 ## Credits
 
-First we'd like to thank the psychology department of Franklin and Marshall college for providing the video of OFM. We would also like to thank the authors who providing tutorials introducing how to use the mask R-CNN model in keras with tensorflow object detection platform
+First we'd like to thank the psychology department of Franklin and Marshall college for providing the video of OFM. We would also like to thank the authors who providing [tutorials](https://machinelearningmastery.com/how-to-train-an-object-detection-model-with-keras/) introducing how to use the mask R-CNN model in keras with tensorflow object detection platform
 
-#### Contributers: 
-Kitty Chen & Noah Halle
+#### Contributers: Kitty Chen & Noah Halle
 
 
 ## License
