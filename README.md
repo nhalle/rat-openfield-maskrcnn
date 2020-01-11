@@ -33,17 +33,10 @@ This project requires python 3.4, tensorflow version 1.14 (tensorflow 2.0 is not
             
            source venv/bin/activate
 
-2. Install dependencies
+3. Install dependencies
 
            pip install -r requirements.txt
 
-3. Download Model 
-      
-           (in the process of having a download link here)
-
-4. Download the dataset
-      
-           (in the process of having a download link here)
 
 
 ## Usage
