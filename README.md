@@ -59,7 +59,7 @@ python analyze_video.py ./video/Video1.mp4 test1 20
 
 First we'd like to thank the psychology department of Franklin and Marshall college for providing the video of OFM. We would also like to thank the authors who providing tutorials introducing how to use the mask R-CNN model in keras with tensorflow object detection platform
 
-### Authors: 
+#### Contributers: 
 Kitty Chen & Noah Halle
 
 
