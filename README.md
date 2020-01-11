@@ -3,13 +3,10 @@
 This project tracks the movement of rats in open field videos using the [Mask R-CNN](https://github.com/matterport/Mask_RCNN) repository and a Mask R-CNN model *mask_rcnn_rat_cfg_0005.h5*
 
 ##### Example result:
-![Alt Text](https://github.com/nhalle/rat-openfield-maskrcnn/blob/master/example.gif)
+![Alt Text](https://github.com/nhalle/rat-openfield-maskrcnn/blob/master/example.gif) {.center}
 ##### Example path:
 ![alt text](https://github.com/nhalle/rat-openfield-maskrcnn/blob/master/example_path_result.png)
-##### Example path:
-<p align="center">
-  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
-</p>
+
 
 
 ## Description
