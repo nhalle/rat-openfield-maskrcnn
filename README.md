@@ -21,13 +21,13 @@ The Open Field Maze(OFM) is a common method to study loco-motor ability and anxi
 
 ### Requirements
 
-This project requires python 3.4, tensorflow version 1.14 (tensorflow 2.0 is not compatible with the Mask_RCNN library unfortunately), and Keras 2.3.1. We recommend using a virtual environment such as pip's [venv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/).
+This project requires python 3.4, tensorflow version 1.14 (tensorflow 2.0 is not compatible with the Mask_RCNN library unfortunately), and Keras 2.3.1. We recommend using pip3 and [venv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) to manage packages.
 
 ### Instructions
 
 1. Clone this repository
 
-2. Setup pip virtual environment
+2. Setup virtual environment
 
            python3 -m venv venv
             
@@ -49,10 +49,12 @@ This project requires python 3.4, tensorflow version 1.14 (tensorflow 2.0 is not
 ## Usage
 
 To run the open field video analyzer:
-python analyze_video.py <path of video> <video name> <number of frames>
+        
+        python analyze_video.py <path of video> <video name> <number of frames>
 
 ex.
-python analyze_video.py ./video/Video1.mp4 test1 20
+        
+        python analyze_video.py ./video/Video1.mp4 test1 20
 
 
 ## Credits
@@ -63,4 +65,8 @@ First we'd like to thank the psychology department of Franklin and Marshall coll
 Kitty Chen & Noah Halle
 
 
-## License:
+## License
+
+MIT License
+
+Copyright (c) 2020 Noah Halle
