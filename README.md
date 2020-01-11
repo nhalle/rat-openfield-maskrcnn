@@ -7,9 +7,10 @@ This project tracks the movement of rats in open field videos using the [Mask R-
 <p align="center">
   <img width="500" height="300" src="https://github.com/nhalle/rat-openfield-maskrcnn/blob/master/example.gif">
 </p>
-##### Example path:
+
+##### path:
 <p align="center">
-  <img width="500" height="300" src="https://github.com/nhalle/rat-openfield-maskrcnn/blob/master/example_path_result.png">
+  <img width="750" height="450" src="https://github.com/nhalle/rat-openfield-maskrcnn/blob/master/example_path_result.png">
 </p>
 
 ## Description
