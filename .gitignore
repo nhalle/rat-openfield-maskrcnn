@@ -1,0 +1,18 @@
+build
+# Byte-compiled
+__pycache__/
+
+# distributions / packaging
+build/
+dist/
+mask_rcnn.egg-info
+*.egg
+samples/
+__pycache__/
+samples/
+License
+
+# git lfs
+video/
+mask_rcnn_rat_cfg_00005.h5
+
