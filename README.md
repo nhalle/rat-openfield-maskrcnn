@@ -1,6 +1,6 @@
 # Object detection: Tracking Rats in Open Field Videos
 
-This project makes use of the [Mask R-CNN](https://github.com/matterport/Mask_RCNN) on Python 3, Keras, and TensorFlow <2. This project tracks the movement of rats in open field videos using a Mask R-CNN model *mask_rcnn_rat_cfg_0005.h5*
+This project tracks the movement of rats in open field videos using the [Mask R-CNN](https://github.com/matterport/Mask_RCNN) repository and a Mask R-CNN model *mask_rcnn_rat_cfg_0005.h5*
 
 
 ## Description
@@ -12,16 +12,18 @@ The Open Field Maze(OFM) is a common method to study loco-motor ability and anxi
 
 ### Requirements
 
-This project requires python 3.4, tensorflow version 1.14 (tensorflow 2.0 is not compatible with the Mask_RCNN library unfortunately), and Keras 2.3.1
+This project requires python 3.4, tensorflow version 1.14 (tensorflow 2.0 is not compatible with the Mask_RCNN library unfortunately), and Keras 2.3.1. We recommend using a virtual environment such as pip's [venv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/).
 
 ### Instructions
 
-(We recommend using a virtual Environment to run this project)
-
 1. Clone this repository
 
+2. Setup pip virtual environment
+            * *python3 -m venv venv*
+            * *source venv/bin/activate*
+
 2. Install dependencies
-            *install -r requirements.txt*
+            *pip install -r requirements.txt*
 
 3. Download Model 
       (in the process of having a download link here)
@@ -32,6 +34,7 @@ This project requires python 3.4, tensorflow version 1.14 (tensorflow 2.0 is not
 
 ## Usage
 
+To run the open field video analyzer:
 python analyze_video.py <path of video> <video name> <number of frames>
 
 ex.
