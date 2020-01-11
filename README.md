@@ -19,10 +19,13 @@ This project requires python 3.4, tensorflow version 1.14 (tensorflow 2.0 is not
 1. Clone this repository
 
 2. Setup pip virtual environment
-            * *python3 -m venv venv*
-            * *source venv/bin/activate*
+
+            *python3 -m venv venv*
+            
+            *source venv/bin/activate*
 
 2. Install dependencies
+
             *pip install -r requirements.txt*
 
 3. Download Model 
